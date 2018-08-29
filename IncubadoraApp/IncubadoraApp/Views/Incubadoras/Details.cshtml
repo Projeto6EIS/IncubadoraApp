@@ -1,0 +1,83 @@
+﻿@model IncubadoraApp.Models.Incubadora
+
+@using System.Threading;
+@using IncubadoraApp.Services;
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Incubadora</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            <label>Temperatura</label>
+        </dt>
+        <dd>
+
+            <p id="temp"></p>
+        </dd>
+        <dt>
+            <Label>Umidade</Label>
+        </dt>
+        <dd>
+            <p id="umidade"></p>
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Editar</a> |
+    <a asp-action="Index">Voltar para a lista</a>
+</div>
+
+
+
+
+
+
+
+
+
+<script>
+  // Temporizador que invoca uma Chamada AJAX para o método GetAtualiza da IncubadoraController
+    
+                //Temporizador
+                var myVar = setInterval(myTimer, 10000);
+
+
+                //Função chamada pelo temporizador a cada 10000 mls
+                function myTimer() {
+
+                    $(function () {
+
+                        // Chamada AJAX
+                        $.ajax({
+
+                            dataType: "json",
+                            type: "POST",
+                            data: {Id: '@Model.Id'},
+                            url: '@Url.Action("GetAtualiza","Incubadoras")',
+                            success: function (data) {
+
+
+
+                                document.getElementById('temp').innerHTML = data.temperatura;
+
+                                document.getElementById('umidade').innerHTML = data.umidade;
+
+                            }
+                        });
+                    });
+
+
+
+
+   }
+
+
+</script>
+
+

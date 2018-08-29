@@ -1,0 +1,43 @@
+﻿@model IEnumerable<IncubadoraApp.Models.Incubadora>
+
+@{
+    ViewData["Title"] = "Incubadoras";
+}
+
+<h2>Incubadoras</h2>
+
+<p>
+    <a asp-action="Create" >Adicionar Nova</a>
+</p>
+
+        
+            <div class="row">
+
+                @foreach (var item in Model)
+    {
+
+
+           
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img class="card-img-top img-responsive" src="~/images/baby.png" style="width: 200px; height: 200px" >
+                        <div class="card-body">
+                            <h4 class="card-title">Incubadora</h4>
+                            <p class="card-text">NOME DO RECÉM NASCIDO : Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">Verificar!</a>
+                        </div>
+                    </div>
+                </div>
+
+                
+            
+
+
+}
+            </div>
+  
+
+   

@@ -13131,11 +13131,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rodolfo\\Documents\\Visual Studio 2017\\Projects\\IncubadoraApp\\IncubadoraApp\\IncubadoraApp.csproj",
+      "projectUniqueName": "C:\\Users\\Rodolfo\\Desktop\\IncubadoraApp\\IncubadoraApp\\IncubadoraApp\\IncubadoraApp.csproj",
       "projectName": "IncubadoraApp",
-      "projectPath": "C:\\Users\\Rodolfo\\Documents\\Visual Studio 2017\\Projects\\IncubadoraApp\\IncubadoraApp\\IncubadoraApp.csproj",
+      "projectPath": "C:\\Users\\Rodolfo\\Desktop\\IncubadoraApp\\IncubadoraApp\\IncubadoraApp\\IncubadoraApp.csproj",
       "packagesPath": "C:\\Users\\Rodolfo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rodolfo\\Documents\\Visual Studio 2017\\Projects\\IncubadoraApp\\IncubadoraApp\\obj\\",
+      "outputPath": "C:\\Users\\Rodolfo\\Desktop\\IncubadoraApp\\IncubadoraApp\\IncubadoraApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

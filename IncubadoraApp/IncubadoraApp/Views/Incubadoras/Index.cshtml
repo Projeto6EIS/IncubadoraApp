@@ -10,34 +10,52 @@
     <a asp-action="Create" >Adicionar Nova</a>
 </p>
 
-        
-            <div class="row">
-
-                @foreach (var item in Model)
+            
+<div class="row">
+    <!-- Aqui é feito o loop e vai listando as incubadoras-->
+    @foreach (var item in Model)
     {
 
 
-           
 
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card">
-                        <img class="card-img-top img-responsive" src="~/images/baby.png" style="width: 200px; height: 200px" >
-                        <div class="card-body">
-                            <h4 class="card-title">Incubadora</h4>
-                            <p class="card-text">NOME DO RECÉM NASCIDO : Lorem ipsum dolor sit amet.</p>
-                        </div>
-                        <div class="card-footer">
-                            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">Verificar!</a>
-                        </div>
-                    </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+                <img class="card-img-top img-responsive" src="~/images/baby.png" style="width: 200px; height: 200px">
+                <div class="card-body">
+                    <h4 class="card-title">Incubadora</h4>      
+                    <p class="card-text">
+
+                        
+
+                        <label>Identificação Recém Nascido:</label>
+
+                        12345
+                        <br />
+                        <label>Nome Recém Nascido:</label>
+
+                        Lorem ipsum dolor sit amet.
+                        <br />
+                        <label>Temperatura:</label>
+                        @item.Temperatura°C as @DateTime.Now.ToString("HH:mm:ss")
+
+                        <br />
+                        <label>Umidade:</label>
+                        @item.Umidade as @DateTime.Now.ToString("HH:mm:ss")
+                    </p>
                 </div>
-
-                
-            
-
-
-}
+                <div class="card-footer">
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">Verificar!</a>
+                </div>
             </div>
+        </div>
+
+
+
+
+
+    }
+</div>
   
 
    

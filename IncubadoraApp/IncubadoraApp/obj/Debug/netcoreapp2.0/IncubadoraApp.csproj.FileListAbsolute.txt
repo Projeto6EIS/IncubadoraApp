@@ -10,3 +10,15 @@ C:\Users\Rodolfo\Documents\Visual Studio 2017\Projects\IncubadoraApp\IncubadoraA
 C:\Users\Rodolfo\Documents\Visual Studio 2017\Projects\IncubadoraApp\IncubadoraApp\obj\Debug\netcoreapp2.0\IncubadoraApp.AssemblyInfo.cs
 C:\Users\Rodolfo\Documents\Visual Studio 2017\Projects\IncubadoraApp\IncubadoraApp\obj\Debug\netcoreapp2.0\IncubadoraApp.dll
 C:\Users\Rodolfo\Documents\Visual Studio 2017\Projects\IncubadoraApp\IncubadoraApp\obj\Debug\netcoreapp2.0\IncubadoraApp.pdb
+C:\Users\Rodolfo\Desktop\IncubadoraApp\IncubadoraApp\IncubadoraApp\bin\Debug\netcoreapp2.0\IncubadoraApp.deps.json
+C:\Users\Rodolfo\Desktop\IncubadoraApp\IncubadoraApp\IncubadoraApp\bin\Debug\netcoreapp2.0\IncubadoraApp.runtimeconfig.json
+C:\Users\Rodolfo\Desktop\IncubadoraApp\IncubadoraApp\IncubadoraApp\bin\Debug\netcoreapp2.0\IncubadoraApp.runtimeconfig.dev.json
+C:\Users\Rodolfo\Desktop\IncubadoraApp\IncubadoraApp\IncubadoraApp\bin\Debug\netcoreapp2.0\IncubadoraApp.dll
+C:\Users\Rodolfo\Desktop\IncubadoraApp\IncubadoraApp\IncubadoraApp\bin\Debug\netcoreapp2.0\IncubadoraApp.pdb
+C:\Users\Rodolfo\Desktop\IncubadoraApp\IncubadoraApp\IncubadoraApp\obj\Debug\netcoreapp2.0\IncubadoraApp.csprojResolveAssemblyReference.cache
+C:\Users\Rodolfo\Desktop\IncubadoraApp\IncubadoraApp\IncubadoraApp\obj\Debug\netcoreapp2.0\IncubadoraApp.csproj.CoreCompileInputs.cache
+C:\Users\Rodolfo\Desktop\IncubadoraApp\IncubadoraApp\IncubadoraApp\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Rodolfo\Desktop\IncubadoraApp\IncubadoraApp\IncubadoraApp\obj\Debug\netcoreapp2.0\IncubadoraApp.AssemblyInfoInputs.cache
+C:\Users\Rodolfo\Desktop\IncubadoraApp\IncubadoraApp\IncubadoraApp\obj\Debug\netcoreapp2.0\IncubadoraApp.AssemblyInfo.cs
+C:\Users\Rodolfo\Desktop\IncubadoraApp\IncubadoraApp\IncubadoraApp\obj\Debug\netcoreapp2.0\IncubadoraApp.dll
+C:\Users\Rodolfo\Desktop\IncubadoraApp\IncubadoraApp\IncubadoraApp\obj\Debug\netcoreapp2.0\IncubadoraApp.pdb

@@ -8,11 +8,11 @@ using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.EntityFrameworkCore.Storage.Internal;
 using System;
 
-namespace IncubadoraApp.Data.Migrations
+namespace IncubadoraApp.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20180824003502_[AplicationDbContextModelSnapshot]")]
-    partial class AplicationDbContextModelSnapshot
+    [Migration("20180902183516_SegundaMigracao")]
+    partial class SegundaMigracao
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -76,6 +76,8 @@ namespace IncubadoraApp.Data.Migrations
                 {
                     b.Property<string>("Id")
                         .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Identificacao");
 
                     b.Property<int>("Temperatura");
 

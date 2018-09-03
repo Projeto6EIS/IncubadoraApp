@@ -15,4 +15,4 @@ Ali onde está DESKTOP-3KET1CC\\SQLEXPRESS, alterar para o nome do servidor local
 	b) dotnet ef migrations add qualquernome (vai adicionar uma migracao para o banco),
         b) dotnet ef database update(vai atualizar o banco).
 
-Por fim Para executar a aplicacao é: dotnet run (vai gerar um endereço no temrinal).
+Por fim Para executar a aplicacao é: dotnet run (vai gerar um endereço no terminal).

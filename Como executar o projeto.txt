@@ -1,13 +1,18 @@
-Baixar .net core  versão v2.0.6 nesse link: https://www.microsoft.com/net/download/dotnet-core/2.0;
-Baixar SqlServer Express Edition;
-Abrir a pasta do projeto onde estao os arquivos pelo Visual Studio Code, e alterar o arquivo appsettings.json, dentro do arquivo terá esse caminho:
+1 - Baixar .net core  versão v2.0.6 nesse link: https://www.microsoft.com/net/download/dotnet-core/2.0;
+
+2 - Baixar SqlServer Express Edition;
+
+3 - Abrir a pasta do projeto onde estao os arquivos com o Visual Studio Code, e abrir o arquivo appsettings.json, dentro do arquivo terá esse caminho:
 
  "Server=DESKTOP-3KET1CC\\SQLEXPRESS;Database=aspnet-IncubadoraApp-727BFDB5-DAE4-4016-81AB-CDC2C4E8E730;Trusted_Connection=True;MultipleActiveResultSets=true"
 
 
-Ali onde ta DESKTOP-3KET1CC\\SQLEXPRESS, trocar para o nome do servidor local do seu sqlServer.
+Ali onde está DESKTOP-3KET1CC\\SQLEXPRESS, alterar para o nome do servidor local do seu sqlServer.
 
 
-Depois no Visual Studio Code apertar crtl + ' para o abrir o terminal no caminho do projeto, no temrinal executar os comandos: dotnet restore (ira baixar dependencias),  dotnet ef migrations add qualquernome (vai adicionar uma migracao para o banco), e por ultimo dotnet ef database update(vai atualizar o banco).
+4 - Depois no Visual Studio Code apertar crtl + ' para o abrir o terminal no caminho do projeto, no temrinal executar os comandos: 
+	a) dotnet restore (ira baixar dependencias),
+	b) dotnet ef migrations add qualquernome (vai adicionar uma migracao para o banco),
+        b) dotnet ef database update(vai atualizar o banco).
 
-Para executar a aplicacao é dotnet run, vai gerar um caminho no temrinal.
+Por fim Para executar a aplicacao é: dotnet run (vai gerar um endereço no temrinal).

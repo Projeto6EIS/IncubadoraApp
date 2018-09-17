@@ -10,8 +10,6 @@ namespace IncubadoraApp.Models
 
         public string Id { get; set; }
 
-        
-
         public int Temperatura { get; set; }
 
         public int Umidade { get; set; }

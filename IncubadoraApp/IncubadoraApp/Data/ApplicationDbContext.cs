@@ -24,5 +24,6 @@ namespace IncubadoraApp.Data
         }
 
         public DbSet<IncubadoraApp.Models.Incubadora> Incubadora { get; set; }
+        public DbSet<IncubadoraApp.Models.RecemNascido> RecemNascido { get; set; }
     }
 }

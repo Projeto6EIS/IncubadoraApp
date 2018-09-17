@@ -22,3 +22,15 @@ C:\Users\Rodolfo\Desktop\IncubadoraApp\IncubadoraApp\IncubadoraApp\obj\Debug\net
 C:\Users\Rodolfo\Desktop\IncubadoraApp\IncubadoraApp\IncubadoraApp\obj\Debug\netcoreapp2.0\IncubadoraApp.AssemblyInfo.cs
 C:\Users\Rodolfo\Desktop\IncubadoraApp\IncubadoraApp\IncubadoraApp\obj\Debug\netcoreapp2.0\IncubadoraApp.dll
 C:\Users\Rodolfo\Desktop\IncubadoraApp\IncubadoraApp\IncubadoraApp\obj\Debug\netcoreapp2.0\IncubadoraApp.pdb
+C:\Vini\Faculdade\Temperatura e Umidade\IncubadoraApp\IncubadoraApp\IncubadoraApp\bin\Debug\netcoreapp2.0\IncubadoraApp.deps.json
+C:\Vini\Faculdade\Temperatura e Umidade\IncubadoraApp\IncubadoraApp\IncubadoraApp\bin\Debug\netcoreapp2.0\IncubadoraApp.runtimeconfig.json
+C:\Vini\Faculdade\Temperatura e Umidade\IncubadoraApp\IncubadoraApp\IncubadoraApp\bin\Debug\netcoreapp2.0\IncubadoraApp.runtimeconfig.dev.json
+C:\Vini\Faculdade\Temperatura e Umidade\IncubadoraApp\IncubadoraApp\IncubadoraApp\bin\Debug\netcoreapp2.0\IncubadoraApp.dll
+C:\Vini\Faculdade\Temperatura e Umidade\IncubadoraApp\IncubadoraApp\IncubadoraApp\bin\Debug\netcoreapp2.0\IncubadoraApp.pdb
+C:\Vini\Faculdade\Temperatura e Umidade\IncubadoraApp\IncubadoraApp\IncubadoraApp\obj\Debug\netcoreapp2.0\IncubadoraApp.csprojAssemblyReference.cache
+C:\Vini\Faculdade\Temperatura e Umidade\IncubadoraApp\IncubadoraApp\IncubadoraApp\obj\Debug\netcoreapp2.0\IncubadoraApp.csproj.CoreCompileInputs.cache
+C:\Vini\Faculdade\Temperatura e Umidade\IncubadoraApp\IncubadoraApp\IncubadoraApp\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Vini\Faculdade\Temperatura e Umidade\IncubadoraApp\IncubadoraApp\IncubadoraApp\obj\Debug\netcoreapp2.0\IncubadoraApp.AssemblyInfoInputs.cache
+C:\Vini\Faculdade\Temperatura e Umidade\IncubadoraApp\IncubadoraApp\IncubadoraApp\obj\Debug\netcoreapp2.0\IncubadoraApp.AssemblyInfo.cs
+C:\Vini\Faculdade\Temperatura e Umidade\IncubadoraApp\IncubadoraApp\IncubadoraApp\obj\Debug\netcoreapp2.0\IncubadoraApp.dll
+C:\Vini\Faculdade\Temperatura e Umidade\IncubadoraApp\IncubadoraApp\IncubadoraApp\obj\Debug\netcoreapp2.0\IncubadoraApp.pdb
